@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page1</title>
+</head>
+<body>
+    <style>
+        .myclass{
+            background-color: #ccc;
+            width: 600px;
+            padding: 20px;
+            border: 1px;
+            border-radius: 8px ;
+            margin:auto;
+        }
+    </style>
+    <div class="myclass">
+    <h2> Patient's Personal Information Form</h2>
+    <br>
+    <label for="name">Name</label>
+    <br>
+    <input type="text" id="name" name="name"> 
+    <br>
+    <br>
+    <label for="Date of birth">Date of birth</label>
+    <br>
+    <input type="text" id="Date of birth" name="Date of birth"> 
+    <br>
+    <br>
+    <label for="email">Email</label>
+    <br>
+    <input type="text" id="email" name="email"> 
+    <br>
+    <br>
+    <label for="phno">PhoneNumber</label>
+    <br>
+    <input type="text" id="phno" name="phonenumber"> 
+    <br>
+    <br>
+    <p>Gender:</p>
+    
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br>
+    <p>Date of visit:</p>
+    <input type="date" id="date">
+    <label for="date"></label>
+    <br>
+    <p>Do you have any medical conditions?</p>
+    <input type="checkbox" id="disease1" value="Diabetes">
+    <label for="disease1">Diabetes</label>
+    <br>
+    <input type="checkbox" id="disease2" value="Hypertention">
+    <label for="disease2">Hypertension</label>
+    <br>
+    <input type="checkbox" id="disease3" value="Heart disease">
+    <label for="disease3">Heart disease</label>
+    <br>
+    <input type="checkbox" id="disease4" value="Cancer">
+    <label for="disease4">Cancer</label>
+    <br>
+    <input type="checkbox" id="disease5" value="Other">
+    <label for="disease5">Other</label>
+    <br>
+    <p>Are you experiencing any symptoms?</p>
+    <label for="dropdown"></label>
+    <select id="dropdown" name="options">
+        <option value="Pain">Pain</option>
+        <option value="Fatigue">Fatigue</option>
+        <option value="Weight loss">Weight loss</option>
+        <option value="Other">Other</option>
+        
+    </select>
+    <br>
+    <br>
+    <label for="Patient history">Patient history:</label>
+    <br >
+    <textarea id="Patient history" name="Patient history"></textarea>
+    <br>
+    <label for="addinfo">Additional Information:</label>
+    <br>
+    <textarea id="addinfo" name="addinfo"></textarea>
+    <br>
+    <input type="submit" value="submit">
+</div>
+</body>
+</html>

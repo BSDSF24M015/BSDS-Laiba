@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <title>Grid Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fffdf0;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            height: 100vh;
+        }
+        .cell {
+            border: 0px solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            padding: 10px;
+        }
+        .paragraph-cell {
+            background-color: #eff3ea;
+            text-align: left;
+            color: black;
+        }
+        .table-cell {
+            background-color: #eff3ea;
+            text-align: right;
+        }
+        .list-cell {
+            background-color: #fff2c2;
+            text-align: left;
+        }
+        .hello-cell {
+            background-color: #fff2c2;
+            justify-content: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; ">HEALTH CARE IDEAS LIST</h1>
+    <div class="grid-container">
+        <div class="cell paragraph-cell">
+            <div>
+                <h3>
+                    1. For Physical Health:
+        
+                </h3>
+                <h4> 
+                    <ul>
+                    <li> Regular exercise</li><br>
+                    <li> Balanced diet</li><br>
+                    <li> Stay hydrated</li><br>
+                    <li> Get enough sleep</li><br>
+                    <li> Practice good hygiene</li><br>
+                    </ul>
+                        </h4>
+            </div>
+        </div>
+        <div class="cell table-cell">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhROcIzl4W3wNOx90j9gp8WSOUPofmdMhWrA&s"/>
+            </div>
+        </div>
+        <div class="cell list-cell">
+            <div>
+                <h3> 2. For Mental Health: </h3>
+                  <h4>
+                    <ul>
+                     <li> Mindfulness and Meditation</li><br>
+                     <li> Connect with nature</li><br>
+                     <li> Engage in hobbies</li><br>
+                     </ul>
+                  </h4>
+            </div>
+        </div>
+        <div class="cell hello-cell">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5TjQfkTSiJcnCSlL7ohxc5VPTuNLuIqszTg&s"/>
+        </div>
+    </div>
+</body>
+</html>
